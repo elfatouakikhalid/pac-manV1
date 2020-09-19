@@ -2,8 +2,8 @@ body{
     background-color: black;
 }
 .grid{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(28, 20px);
     width: 560px;
     height: 560px;
 }
@@ -13,8 +13,4 @@ h3{
 .borders{
     box-sizing: border-box;
     border: 1px solid blue;
-}
-.grid div{
-    width: 20px;
-    height: 20px;
 }
